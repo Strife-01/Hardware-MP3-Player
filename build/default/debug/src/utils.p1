@@ -1,0 +1,38 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3 src/utils.c
+[; ;src/utils.c: 3: void busy_wait (unsigned long iterations)
+[v _busy_wait `(v ~T0 @X0 1 ef1`ul ]
+"4
+[; ;src/utils.c: 4: {
+{
+[e :U _busy_wait ]
+"3
+[; ;src/utils.c: 3: void busy_wait (unsigned long iterations)
+[v _iterations `ul ~T0 @X0 1 r1 ]
+"4
+[; ;src/utils.c: 4: {
+[f ]
+"5
+[; ;src/utils.c: 5:     unsigned long iterator;
+[v _iterator `ul ~T0 @X0 1 a ]
+"7
+[; ;src/utils.c: 7:     for (iterator = 0; iterator < iterations; iterator++)
+{
+[e = _iterator -> -> -> 0 `i `l `ul ]
+[e $U 5  ]
+[e :U 2 ]
+"8
+[; ;src/utils.c: 8:     {
+{
+"10
+[; ;src/utils.c: 10:     }
+}
+[e ++ _iterator -> -> -> 1 `i `l `ul ]
+[e :U 5 ]
+[e $ < _iterator _iterations 2  ]
+[e :U 3 ]
+}
+"11
+[; ;src/utils.c: 11: }
+[e :UE 1 ]
+}
