@@ -22,7 +22,7 @@ This project implements a hardware-driven MP3 player using the PIC18F47Q10, an 8
 ![C Programming Language](https://raw.githubusercontent.com/github/explore/main/topics/c/c.png)
 
 ### Microchip
-![Microchip Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Microchip_logo.svg/1280px-Microchip_logo.svg.png)
+![Microchip Logo](https://upload.wikimedia.org/wikipedia/commons/c/ca/Microchip-Logo.svg)
 
 ---
 
