@@ -147,10 +147,3 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 - Contributors to the open-source libraries used in this project.
 
 For more information, visit the [project repository](https://github.com/Strife-01/Hardware-MP3-Player).
-
----
-
-### Notes:
-
-1. Replace `PLACEHOLDER` in the YouTube video link with the actual video ID after uploading your demo video to YouTube.
-2. Ensure all images are hosted at stable locations (you can also upload them to your repository in a `docs` folder and reference them using relative links).
